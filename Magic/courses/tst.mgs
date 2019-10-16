@@ -1,0 +1,36 @@
+Test Course Format
+***
+TitleAuthor early 1800
+header="Test Course Format"
+author="Magic Content Team"
+
+***
+List -
+header="Course Overview"
+items=["Title","Course Outline","Writing Paragraphs",
+"Using Images","Two Column Content"]
+
+***
+OneParagraph 1900
+header="On Writing Paragraphs"
+content="""
+I like to write paragraphs.  This paragraph goes on for a really long
+time.  I can even insert arbitrary newlines to make it easier to read
+in Sublime Text and they will be stripped by the editor.  See, this
+paragraph wasn't that long!  Note: any special formatting you use, like
+tabs or returns, will be stripped away by the renderer.
+"""
+
+***
+BigImage June 2012
+local=True
+path="stars.jpg"
+
+***
+ImageTextSplit July 4, 2013
+header="Splitting Text and Images"
+imageLocal=True
+imagePath="stars.jpg"
+textContent="""
+You can see an image on the left of this text.  They should be split 50/50.
+"""

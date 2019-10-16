@@ -1,0 +1,33 @@
+.bigimage {
+	height:350px;
+	display:inline-block;
+	border-radius:5px;
+}
+.halfimage {
+	float:left;
+	width:50%;
+	max-height:100%;
+}
+h1 {
+	font-family:"helvetica neue";
+	font-size: 42px;
+}
+h2 {
+	font-family:"helvetica neue";
+	font-size: 36px;
+}
+h3 {
+	font-family:"helvetica neue";
+	font-size: 30px;
+}
+p {
+	font-family:Garamond;
+	font-size:25px;
+}
+.i3 {
+	font-family:Garamond;
+	font-size:15px;
+}
+html {
+	overflow:hidden;
+}

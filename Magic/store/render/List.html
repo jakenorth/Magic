@@ -1,0 +1,10 @@
+{% include "render/nav.html" %}
+<page>
+<h1 class="i1"> {{ header|safe }} </h1>
+<hr>
+<ul>
+	{% for item in items %}
+		<li class="i2">{{item|safe}}</li>
+	{% endfor %}
+</ul>
+</page>

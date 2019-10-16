@@ -1,0 +1,65 @@
+<link rel="stylesheet" type="text/css" href="/assets/course.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script>
+	function pass(){}
+	function log(message){}
+	function updateNav(){
+		len = {{ len }};
+		if (page_id == len-1) {
+			$("#next").attr("onclick","pass()")
+			$("#previous").attr("onclick","previous()")
+		}
+		else if (page_id == 0) {
+			$("#next").attr("onclick","next()")
+			$("#previous").attr("onclick","pass()")
+		}
+		else {
+			$("#next").attr("onclick","next()")
+			$("#previous").attr("onclick","previous()")
+		}
+		$("#page_indicator").html("Page " + (page_id+1) + " of " + len)
+		$(".frame").attr("src","/c/{{ course_id }}/p/" + page_id);
+		$(".timeline").attr("src","/t/{{ course_id }}/p/" + page_id);
+		$('#page_frame').load(function () {
+    		$(this).height($(this).contents().height());
+    		$(this).width($(this).contents().width());
+		});
+		log("Navbar Updated");
+	}
+	function previous(){
+		page_id--;
+		updateNav();
+		log("Moving to previous page");
+	}
+	function next(){
+		page_id++;
+		updateNav();
+		log("Moving to next page");
+	}
+	$(document).ready(function(){
+		// var isFirefox = typeof InstallTrigger !== 'undefined';
+		// var isSafari = /constructor/i.test(window.HTMLElement) || (function (p) { return p.toString() === "[object SafariRemoteNotification]"; })(!window['safari'] || (typeof safari !== 'undefined' && safari.pushNotification));
+		// if (isFirefox || isSafari) {
+		// 	document.write("<center><h1>ERROR: Browser not supported</h1><hr><h2>Use Google Chrome</h2></center>");
+		// 	alert("Your browser is not supported.  Use google chrome.");
+		// }
+		page_id = 0;
+		updateNav();
+	});
+</script>
+
+<div class="nav">
+	<btn id="previous" class="left">Previous</btn>
+	<span id="page_indicator">loading...</span>
+	<btn id="next" class="right">Next</btn>
+</div>
+<hr>
+
+<div id="content_container">
+	<div class="container">
+		<iframe class="card frame" id="page_frame" src="/c/{{ course_id }}/p/0">Page Loading</iframe>
+	</div>
+</div>
+
+<!-- <iframe class="card timeline" src="/t/{{course_id}}/p/0">Timeline Loading</iframe> -->

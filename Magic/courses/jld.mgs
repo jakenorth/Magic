@@ -1,0 +1,59 @@
+John Locke's Ideas
+***
+TitleAuthor early 1800
+Title="John Locke and the Declaration of Independence"
+header="John Locke and the Declaration of Independence"
+author="Magic Content Team"
+
+***
+OneParagraph 1984
+header="Introduction"
+content=""" 
+# And now, an introduction
+---
+## Part one
+this
+
+that
+
+##Part two
+John Locke was a *person* guy. He lived _a long time ago_ ~in a galaxy far far away~. You learned about him in what the other people still haven't thrown together wrote nowhere. As a guy, he had (most likely) a brain (unless this was in a computer elsewhere) and a brain thinks thoughts so here are his ideas summarized in a way people can actually understand. His thoughts were mainly about staying alive the philosophy of government.   
+"""
+
+***
+Quote 1984
+header = "Wealth and Property Rights"
+quoteContent = "So the great and chief purpose of [men] putting themselves under government is the preservation of their property"
+quoteSource = "Second Treatise of Civil Government, chapter 9 section 124"
+content="""
+On wealth and property rights, he believes the purpose of government was to protect one's property. In anarchy, Locke argues that while people have unrestricted actions with their property, it is endangered and is thus subject to theft and damage. Therefore, government can act as an insurance and accountability policy, protecting it against theft and damage under a system of laws.
+"""
+
+***
+Quote 1984
+header = "Consent of the Majority"
+quoteContent = "...every individual man has a property in his own person; this is something that nobody else has any right to. The labour of his body and the work of his hands, we may say, are strictly his. So when he takes something from the state that nature has provided and he mixes his labour with it, [...] he makes it his property."
+quoteSource = "Second Treatise of Civil Government, chapter 5 section 27"
+content="""
+Locke believes that what someone creates belongs to them, as each man owns his work.
+
+On consent of the majority, Locke believes that while it was required that each individual person consent to being part of a government, it was implausible to have each individual consent to all the laws or acts passed. In other words, it is impossible to please everybody. He argued that if a society ultimately could not act as a whole body, then it would quickly dissolve. 
+"""
+
+***
+Quote 1984
+header="we don't have a header for this page"
+quoteContent = "When men first unite into a society, a majority of them naturally have the whole power of the community [and enforce their] laws through officials whom they have appointed. When that happens, the form of the government is a thorough democracy. Or they may put the law-making power into the hands of a select few [...]; and then the government is an oligarchy. If they put the power into the hands of one man, their government is a monarchy"
+quoteSource = "Second Treatise of Civil Government, chapter 10 section 132"
+content="""
+When one joins a government, they inherently give up some of their rights - divesting from a state of nature -  in return for safe and peaceful living. For example, one is subject to others laws in exchange for their life and property to be secured. These laws include punishment for thieves and crime in an attempt to protect property. In essence, the laws actually protect life and property, despite the inaugural loss of life (freedom) and property (taxes) when joining a government.
+"""
+
+***
+Quote 1984
+header="Despotic Power"
+quoteContent = "...Despotical power is an absolute, arbitrary power one man has over another, to take away his life, whenever he pleases. This is a power, which neither nature gives, for it has made no such distinction between one man and another; nor compact can convey: for man not having such an arbitrary power over his own life, cannot give another man such a power over it; but it is the effect only of forfeiture, which the aggressor makes of his own life, when he puts himself into the state of war with another:"
+quoteSource = "Second Treatise of Civil Government, chapter 15 section 172"
+content = """
+On war, Locke entertains the idea of despotic power: when a man, group, or nation enters war, they give up their right to live. Despotic power only applies for the oppressor to have over the aggressor, due to the aggresoras lack of reason and peace. In our daily lives, this affirms self-defense as not only acceptable, but morally right. In other words, Locke subscribes to an exceptionally wordy eye-for-an-eye mentality.
+"""
